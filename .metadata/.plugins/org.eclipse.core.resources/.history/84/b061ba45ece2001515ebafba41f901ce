@@ -1,0 +1,6 @@
+//use std::*;
+std::
+fn main() {
+    println!("Hello, world!");
+        
+}

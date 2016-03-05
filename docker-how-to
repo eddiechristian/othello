@@ -7,5 +7,6 @@ to run eclipse with rustDT
 4.)socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" ---this may not be required.
 
 4.) next run eddiechristian/rust :0.1  docker image(eclipse w/ rustDT)
-    docker run --rm -it   --env-file <env file>  -v <hostdir>:<contianer mount>  eddiechristian/rust:0.1    /bin/bash
+     docker run --rm -it --env-file ./env.list -v /Users/eddie/rust/othello:/othello eddiechristian/rust:0.1 /bin/bash
 5.) run eclipse
+6.) set workspace to /othello
