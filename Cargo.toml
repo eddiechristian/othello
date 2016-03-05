@@ -1,0 +1,6 @@
+[package]
+name = "othello"
+version = "0.1.0"
+authors = ["Eddie <eddiechristian1@gmail.com>"]
+
+[dependencies]
