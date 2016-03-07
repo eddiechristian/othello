@@ -368,3 +368,2110 @@ org.eclipse.core.runtime.CoreException: Rust installation: Cargo executable not 
 
 !ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 15:58:52.825
 !MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+!SESSION 2016-03-05 17:14:14.600 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 17:42:59.852
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@1a67e326): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 17:42:59.852
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 17:45:34.568
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@2b6676a8): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 17:45:34.568
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 17:47:02.013
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@2346c0e7): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 17:47:02.013
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 17:47:15.691
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@79c14669): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 17:47:15.691
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 17:49:04.507
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@2cc2f289): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 17:49:04.507
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 18:18:16.461
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@1593e379): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 18:18:16.461
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 18:19:38.709
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@9e1ec42): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 18:19:38.709
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 18:22:58.116
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@24158bba): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 18:22:58.116
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 18:25:49.243
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@14c8a968): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 18:25:49.243
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 18:28:54.170
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@39d8e463): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 18:28:54.170
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2016-03-05 18:30:20.137
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.mi.service.MIRunControl$9@65489d6f): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Context cannot be suspended. null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2016-03-05 18:30:20.137
+!MESSAGE Context cannot be suspended.
+
+!ENTRY org.eclipse.ui 4 4 2016-03-05 18:36:44.699
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@561690ff)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@5ae66c98)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-05 18:36:44.701
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@561690ff)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@5ae66c98)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-05 18:36:44.702
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@391d28ea)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@66ec46be)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-05 18:36:44.704
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@391d28ea)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@66ec46be)}
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:41:37.111
+!MESSAGE Unknown error line syntax: Unknown flag: '-g'
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:41:37.114
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:41:37.115
+!MESSAGE Unknown error line syntax: Usage:
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:41:37.116
+!MESSAGE Unknown error line syntax:     cargo build [options]
+
+!ENTRY org.eclipse.ui 4 4 2016-03-05 18:46:25.043
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@5ae66c98)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@178bc996)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-05 18:46:25.044
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@5ae66c98)} vs {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@178bc996)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-05 18:46:25.045
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@75cf4e)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@391d28ea)}
+
+!ENTRY org.eclipse.ui 4 4 2016-03-05 18:46:25.047
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.forwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$2@75cf4e)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@391d28ea)}
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:55:22.613
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:55:22.615
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:55:22.618
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:55:22.733
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:55:22.735
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 18:55:22.736
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:22:53.306
+!MESSAGE Unknown error line syntax: src/main.rs:20:34: 20:39 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:22:53.310
+!MESSAGE Unknown error line syntax: src/main.rs:20:57: 20:62 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:23:15.974
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:23:15.976
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:23:15.978
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:35:04.618
+!MESSAGE Unknown line format:         where F: FnMut(&T) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:35:04.626
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:35:04.628
+!MESSAGE Unknown line format:         where R: RangeArgument<usize>
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:35:04.629
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:35:15.750
+!MESSAGE Unknown error line syntax: src/main.rs:23:38: 23:46 help: run `rustc --explain E0433` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:35:15.751
+!MESSAGE Unknown error line syntax: src/main.rs:23:38: 23:46 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:35:15.884
+!MESSAGE Unknown error line syntax: src/main.rs:23:38: 23:46 help: run `rustc --explain E0433` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:35:15.886
+!MESSAGE Unknown error line syntax: src/main.rs:23:38: 23:46 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:41:08.879
+!MESSAGE Unknown error line syntax: src/main.rs:29:21: 29:29 help: run `rustc --explain E0382` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:41:26.635
+!MESSAGE Unknown line format: - Could not match expr node type: ExprMac(Spanned { node: Mac_ { path: path(vec), tts: [Token(Span { lo: BytePos(20), hi: BytePos(36), expn_id: ExpnId(4294967295) }, Ident(BoardSquareState#0, ModName)), Token(Span { lo: BytePos(36), hi: BytePos(38), expn_id: ExpnId(4294967295) }, ModSep), Token(Span { lo: BytePos(38), hi: BytePos(43), expn_id: ExpnId(4294967295) }, Ident(EMPTY#0, Plain)), Token(Span { lo: BytePos(43), hi: BytePos(44), expn_id: ExpnId(4294967295) }, Comma), Token(Span { lo: BytePos(44), hi: BytePos(60), expn_id: ExpnId(4294967295) }, Ident(BoardSquareState#0, ModName)), Token(Span { lo: BytePos(60), hi: BytePos(62), expn_id: ExpnId(4294967295) }, ModSep), Token(Span { lo: BytePos(62), hi: BytePos(67), expn_id: ExpnId(4294967295) }, Ident(EMPTY#0, Plain)), Token(Span { lo: BytePos(67), hi: BytePos(68), expn_id: ExpnId(4294967295) }, Comma), Token(Span { lo: BytePos(75), hi: BytePos(91), expn_id: ExpnId(4294967295) }, Ident(BoardSquareState#0, ModName)), Token(Span { lo: BytePos(91), hi: BytePos(93), expn_id: ExpnId(4294967295) }, ModSep), Token(Span { lo: BytePos(93), hi: BytePos(98), expn_id: ExpnId(4294967295) }, Ident(EMPTY#0, Plain)), Token(Span { lo: BytePos(98), hi: BytePos(99), expn_id: ExpnId(4294967295) }, Comma), Token(Span { lo: BytePos(99), hi: BytePos(115), expn_id: ExpnId(4294967295) }, Ident(BoardSquareState#0, ModName)), Token(Span { lo: BytePos(115), hi: BytePos(117), expn_id: ExpnId(4294967295) }, ModSep), Token(Span { lo: BytePos(117), hi: BytePos(122), expn_id: ExpnId(4294967295) }, Ident(EMPTY#0, Plain)), Token(Span { lo: BytePos(122), hi: BytePos(123), expn_id: ExpnId(4294967295) }, Comma), Token(Span { lo: BytePos(130), hi: BytePos(146), expn_id: ExpnId(4294967295) }, Ident(BoardSquareState#0, ModName)), Token(Span { lo: BytePos(146), hi: BytePos(148), expn_id: ExpnId(4294967295) }, ModSep), Token(Span { lo: BytePos(148), hi: BytePos(153), expn_id: ExpnId(4294967295) }, Ident(EMPTY#0, Plain)), Token(Span { lo: BytePos(153), hi: BytePos(154), expn_id: ExpnId(4294967295) }, Comma), Token(Span { lo: BytePos(154), hi: BytePos(170), expn_id: ExpnId(4294967295) }, Ident(BoardSquareState#0, ModName)), Token(Span { lo: BytePos(170), hi: BytePos(172), expn_id: ExpnId(4294967295) }, ModSep), Token(Span { lo: BytePos(172), hi: BytePos(177), expn_id: ExpnId(4294967295) }, Ident(EMPTY#0, Plain)), Token(Span { lo: BytePos(177), hi: BytePos(178), expn_id: ExpnId(4294967295) }, Comma), Token(Span { lo: BytePos(185), hi: BytePos(201), expn_id: ExpnId(4294967295) }, Ident(BoardSquareState#0, ModName)), Token(Span { lo: BytePos(201), hi: BytePos(203), expn_id: ExpnId(4294967295) }, ModSep), Token(Span { lo: BytePos(203), hi: BytePos(208), expn_id: ExpnId(4294967295) }, Ident(EMPTY#0, Plain)), Token(Span { lo: BytePos(208), hi: BytePos(209), expn_id: ExpnId(4294967295) }, Comma), Token(Span { lo: BytePos(209), hi: BytePos(225), expn_id: ExpnId(4294967295) }, Ident(BoardSquareState#0, ModName)), Token(Span { lo: BytePos(225), hi: BytePos(227), expn_id: ExpnId(4294967295) }, ModSep), Token(Span { lo: BytePos(227), hi: BytePos(232), expn_id: ExpnId(4294967295) }, Ident(EMPTY#0, Plain))], ctxt: SyntaxContext(0) }, span: Span { lo: BytePos(15), hi: BytePos(233), expn_id: ExpnId(4294967295) } })
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:52:44.854
+!MESSAGE Unknown error line syntax: src/main.rs:17:6: 17:16 help: run `rustc --explain E0433` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:52:44.857
+!MESSAGE Unknown error line syntax: src/main.rs:17:6: 17:16 help: run `rustc --explain E0405` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:52:44.859
+!MESSAGE Unknown error line syntax: src/main.rs:18:27: 18:41 help: run `rustc --explain E0433` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:52:44.859
+!MESSAGE Unknown error line syntax: src/main.rs:18:27: 18:41 help: run `rustc --explain E0412` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:52:44.860
+!MESSAGE Unknown error line syntax: src/main.rs:18:46: 18:57 help: run `rustc --explain E0433` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:52:44.862
+!MESSAGE Unknown error line syntax: src/main.rs:18:46: 18:57 help: run `rustc --explain E0412` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:53:00.498
+!MESSAGE Unknown error line syntax: src/main.rs:17:6: 17:16 help: run `rustc --explain E0433` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:53:00.500
+!MESSAGE Unknown error line syntax: src/main.rs:17:6: 17:16 help: run `rustc --explain E0405` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:53:00.501
+!MESSAGE Unknown error line syntax: src/main.rs:18:27: 18:41 help: run `rustc --explain E0433` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:53:00.503
+!MESSAGE Unknown error line syntax: src/main.rs:18:27: 18:41 help: run `rustc --explain E0412` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:53:00.504
+!MESSAGE Unknown error line syntax: src/main.rs:18:46: 18:57 help: run `rustc --explain E0433` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 19:53:00.505
+!MESSAGE Unknown error line syntax: src/main.rs:18:46: 18:57 help: run `rustc --explain E0412` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:59:30.858
+!MESSAGE Unknown line format:                         is_positive: bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:59:30.862
+!MESSAGE Unknown line format:                         prefix: &str,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:59:30.864
+!MESSAGE Unknown line format:                         buf: &str)
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:59:30.866
+!MESSAGE Unknown line format:                         -> Result
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:59:30.867
+!MESSAGE Unknown line format:                        f: F) -> Result
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:59:30.868
+!MESSAGE Unknown line format:         where F: FnOnce(&mut Formatter) -> Result,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 19:59:30.868
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:42:48.231
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:42:48.236
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:42:48.237
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:42:48.381
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:42:48.383
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:42:48.383
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:10.393
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:10.395
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:10.396
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:10.537
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:10.539
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:10.540
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:57.399
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:57.401
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:57.403
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:57.521
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:57.522
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:43:57.523
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:44:19.864
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:44:19.866
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:44:19.867
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:44:19.998
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:44:20.004
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:44:20.005
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:53:53.323
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:53:53.325
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:53:53.326
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:53:53.463
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:53:53.465
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:53:53.466
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:54:29.268
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:54:29.270
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:54:29.272
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:54:29.393
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:54:29.394
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:54:29.395
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:55:54.813
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:55:54.817
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:55:54.818
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:55:54.928
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:55:54.929
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:55:54.930
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:14.852
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:14.854
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:14.855
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:14.990
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:14.992
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:15.004
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:21.397
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:21.398
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:21.399
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:21.532
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:21.534
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:21.536
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:54.688
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:54.692
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:54.697
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:55.061
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:55.063
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:56:55.063
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:06.102
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:06.104
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:06.105
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:06.244
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:06.264
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:06.267
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:36.703
+!MESSAGE Unknown error line syntax: src/main.rs:16:18: 16:19 help: run `rustc --explain E0412` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:36.704
+!MESSAGE Unknown error line syntax: src/main.rs:16:20: 16:21 help: run `rustc --explain E0412` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:36.898
+!MESSAGE Unknown error line syntax: src/main.rs:16:18: 16:19 help: run `rustc --explain E0412` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:57:36.901
+!MESSAGE Unknown error line syntax: src/main.rs:16:20: 16:21 help: run `rustc --explain E0412` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:58:21.245
+!MESSAGE Unknown error line syntax: src/main.rs:33:6: 33:20 help: run `rustc --explain E0063` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:58:21.563
+!MESSAGE Unknown error line syntax: src/main.rs:33:6: 33:20 help: run `rustc --explain E0063` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:59:08.917
+!MESSAGE Unknown error line syntax: src/main.rs:33:6: 33:20 help: run `rustc --explain E0063` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 20:59:09.187
+!MESSAGE Unknown error line syntax: src/main.rs:33:6: 33:20 help: run `rustc --explain E0063` to see a detailed explanation
+!SESSION 2016-03-05 21:01:41.016 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-05 21:01:48.725
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:07:33.126
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:07:33.160
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:07:33.165
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:09:49.810
+!MESSAGE Unknown error line syntax: src/main.rs:28:12: 28:13 help: run `rustc --explain E0001` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:10:25.223
+!MESSAGE Unknown line format: - Could not match expr node type: ExprParen(expr(4294967295: (size - 2) / 3 + 1))
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:10:38.140
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:10:38.142
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:10:38.143
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:10:38.247
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:10:38.250
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:10:38.252
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:04.472
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:04.473
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:04.474
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:04.576
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:04.578
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:04.579
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:39.273
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:39.275
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:39.276
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:39.378
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:39.380
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:11:39.381
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:29.821
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:29.822
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:29.824
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:29.927
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:29.928
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:29.930
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:55.426
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:55.427
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:55.428
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:55.542
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:55.543
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:13:55.545
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.037
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Eq + Hash
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.038
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.057
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Eq + Hash
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.070
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.072
+!MESSAGE Unknown line format:                                      hash: SafeHash,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.074
+!MESSAGE Unknown line format:                                      k: K,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.075
+!MESSAGE Unknown line format:                                      v: V,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.076
+!MESSAGE Unknown line format:                                      mut found_existing: F)
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.077
+!MESSAGE Unknown line format:                                      -> &'a mut V where
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.078
+!MESSAGE Unknown line format:         F: FnMut(&mut K, &mut V, K, V),
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.078
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.079
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.080
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.081
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.082
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.083
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.084
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.084
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-05 21:33:20.085
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:38:34.972
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:38:34.974
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:38:34.975
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:38:35.097
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:38:35.098
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:38:35.099
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:39:03.093
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:39:03.095
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:39:03.096
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:39:03.232
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:39:03.235
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-05 21:39:03.236
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:47:23.928
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:47:23.942
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:47:23.944
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:47:24.102
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:47:24.103
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:47:24.105
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:50:07.672
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:50:07.673
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:50:07.675
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:50:07.869
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:50:07.877
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:50:07.880
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:18.023
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:18.024
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:18.025
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:18.166
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:18.168
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:18.169
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:38.461
+!MESSAGE Unknown error line syntax: src/main.rs:46:25: 46:31 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:38.464
+!MESSAGE Unknown error line syntax: src/main.rs:51:25: 51:31 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:38.638
+!MESSAGE Unknown error line syntax: src/main.rs:46:25: 46:31 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:51:38.645
+!MESSAGE Unknown error line syntax: src/main.rs:51:25: 51:31 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:52:03.361
+!MESSAGE Unknown error line syntax: src/main.rs:46:25: 46:31 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:52:03.363
+!MESSAGE Unknown error line syntax: src/main.rs:51:25: 51:31 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:52:03.561
+!MESSAGE Unknown error line syntax: src/main.rs:46:25: 46:31 help: run `rustc --explain E0425` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:52:03.566
+!MESSAGE Unknown error line syntax: src/main.rs:51:25: 51:31 help: run `rustc --explain E0425` to see a detailed explanation
+!SESSION 2016-03-06 17:56:27.100 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-03-06 17:56:45.781
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:57:58.014
+!MESSAGE Unknown error line syntax: src/main.rs:37:12: 37:15 help: to make the local variable mutable, use `mut` as shown:
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:57:58.053
+!MESSAGE Unknown error line syntax: src/main.rs:          let mut map = HashMap::new();
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:57:58.481
+!MESSAGE Unknown error line syntax: src/main.rs:37:12: 37:15 help: to make the local variable mutable, use `mut` as shown:
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:57:58.483
+!MESSAGE Unknown error line syntax: src/main.rs:          let mut map = HashMap::new();
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:59:15.238
+!MESSAGE Unknown error line syntax: src/main.rs:4:3: 4:4 help: place inner attribute at the top of the module or block
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 17:59:15.345
+!MESSAGE Unknown error line syntax: src/main.rs:4:3: 4:4 help: place inner attribute at the top of the module or block
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:00:07.114
+!MESSAGE Unknown error line syntax: src/main.rs:4:3: 4:4 help: place inner attribute at the top of the module or block
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:00:07.116
+!MESSAGE Unknown error line syntax: src/main.rs:6:3: 6:4 help: place inner attribute at the top of the module or block
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:00:07.220
+!MESSAGE Unknown error line syntax: src/main.rs:4:3: 4:4 help: place inner attribute at the top of the module or block
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:00:07.226
+!MESSAGE Unknown error line syntax: src/main.rs:6:3: 6:4 help: place inner attribute at the top of the module or block
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:08:35.840
+!MESSAGE Unknown error line syntax: src/main.rs:66:32: 66:36 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:09:05.398
+!MESSAGE Unknown error line syntax: src/main.rs:50:28: 50:31 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:10:23.157
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:10:23.159
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 18:10:23.159
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.317
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Eq + Hash
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.318
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.320
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Eq + Hash
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.321
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.349
+!MESSAGE Unknown line format:                                      hash: SafeHash,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.353
+!MESSAGE Unknown line format:                                      k: K,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.354
+!MESSAGE Unknown line format:                                      v: V,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.367
+!MESSAGE Unknown line format:                                      mut found_existing: F)
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.371
+!MESSAGE Unknown line format:                                      -> &'a mut V where
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.372
+!MESSAGE Unknown line format:         F: FnMut(&mut K, &mut V, K, V),
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.373
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.376
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.379
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.382
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.383
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.387
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.388
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.389
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:03.390
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.438
+!MESSAGE Unknown line format:         Self: Sized, U: IntoIterator<Item=Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.440
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.442
+!MESSAGE Unknown line format:         Self: Sized, U: IntoIterator
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.443
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.449
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.450
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.451
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.452
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.453
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> Option<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.454
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.455
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.455
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.456
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.457
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.458
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&mut St, Self::Item) -> Option<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.459
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.459
+!MESSAGE Unknown line format:         where Self: Sized, U: IntoIterator, F: FnMut(Self::Item) -> U,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.460
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.460
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(&Self::Item),
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.461
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.462
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.463
+!MESSAGE Unknown line format:         B: Default + Extend<Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.463
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.464
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.464
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(B, Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.465
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.466
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.466
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.467
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.467
+!MESSAGE Unknown line format:         F: FnMut(Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.468
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.469
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.470
+!MESSAGE Unknown line format:         P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.470
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.471
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.472
+!MESSAGE Unknown line format:         P: FnMut(Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.473
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.474
+!MESSAGE Unknown line format:         P: FnMut(Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.475
+!MESSAGE Unknown line format:         Self: Sized + ExactSizeIterator + DoubleEndedIterator
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.476
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.476
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.477
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.477
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.478
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.478
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.479
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.480
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.481
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.481
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.482
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.483
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.485
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.485
+!MESSAGE Unknown line format:         FromA: Default + Extend<A>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.486
+!MESSAGE Unknown line format:         FromB: Default + Extend<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.487
+!MESSAGE Unknown line format:         Self: Sized + Iterator<Item=(A, B)>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.488
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.489
+!MESSAGE Unknown line format:         where Self: Sized + Iterator<Item=&'a T>, T: Clone
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.489
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.490
+!MESSAGE Unknown line format:         S: Add<Self::Item, Output=S> + Zero,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.491
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.492
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.492
+!MESSAGE Unknown line format:         P: Mul<Self::Item, Output=P> + One,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.493
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.494
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.496
+!MESSAGE Unknown line format:         I: IntoIterator<Item = Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.496
+!MESSAGE Unknown line format:         Self::Item: Ord,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.497
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.498
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.499
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.499
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.501
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.502
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.502
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.503
+!MESSAGE Unknown line format:         Self::Item: PartialEq<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.504
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.504
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.505
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.506
+!MESSAGE Unknown line format:         Self::Item: PartialEq<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.507
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.508
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.509
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.509
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.510
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.510
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.511
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.512
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.513
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.514
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.514
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.515
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.515
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.516
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.517
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.518
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.522
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 18:30:18.523
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:12:34.247
+!MESSAGE Unknown error line syntax: src/main.rs:29:26: 29:31 help: run `rustc --explain E0369` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:12:34.623
+!MESSAGE Unknown error line syntax: src/main.rs:29:26: 29:31 help: run `rustc --explain E0369` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:15:39.047
+!MESSAGE Unknown error line syntax: src/main.rs:28:40: 28:45 help: to prevent the move, use `ref value` or `ref mut value` to capture value by reference
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:15:39.403
+!MESSAGE Unknown error line syntax: src/main.rs:28:40: 28:45 help: to prevent the move, use `ref value` or `ref mut value` to capture value by reference
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:17:04.489
+!MESSAGE Unknown error line syntax: src/main.rs:28:40: 28:45 help: to prevent the move, use `ref value` or `ref mut value` to capture value by reference
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:17:04.848
+!MESSAGE Unknown error line syntax: src/main.rs:28:40: 28:45 help: to prevent the move, use `ref value` or `ref mut value` to capture value by reference
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:18:25.149
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:18:25.150
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:18:25.151
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:18:25.302
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:18:25.306
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:18:25.309
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:02.298
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:02.301
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:02.304
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:02.441
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:02.443
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:02.444
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:20.378
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:20.379
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:20.381
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:20.537
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:20.540
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:20.548
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:29.153
+!MESSAGE Unknown error line syntax: src/main.rs:28:40: 28:45 help: to prevent the move, use `ref value` or `ref mut value` to capture value by reference
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:19:29.431
+!MESSAGE Unknown error line syntax: src/main.rs:28:40: 28:45 help: to prevent the move, use `ref value` or `ref mut value` to capture value by reference
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:20:07.794
+!MESSAGE Unknown error line syntax: src/main.rs:28:40: 28:45 help: to prevent the move, use `ref value` or `ref mut value` to capture value by reference
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:20:08.065
+!MESSAGE Unknown error line syntax: src/main.rs:28:40: 28:45 help: to prevent the move, use `ref value` or `ref mut value` to capture value by reference
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.097
+!MESSAGE Unknown line format:         Self: Sized, U: IntoIterator<Item=Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.099
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.100
+!MESSAGE Unknown line format:         Self: Sized, U: IntoIterator
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.101
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.102
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.102
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.103
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.103
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.104
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> Option<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.104
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.105
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.106
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.107
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.108
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.108
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&mut St, Self::Item) -> Option<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.109
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.110
+!MESSAGE Unknown line format:         where Self: Sized, U: IntoIterator, F: FnMut(Self::Item) -> U,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.110
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.111
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(&Self::Item),
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.112
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.112
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.113
+!MESSAGE Unknown line format:         B: Default + Extend<Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.114
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.115
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.116
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(B, Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.116
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.117
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.118
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.118
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.119
+!MESSAGE Unknown line format:         F: FnMut(Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.119
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.120
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.120
+!MESSAGE Unknown line format:         P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.121
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.121
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.122
+!MESSAGE Unknown line format:         P: FnMut(Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.123
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.123
+!MESSAGE Unknown line format:         P: FnMut(Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.124
+!MESSAGE Unknown line format:         Self: Sized + ExactSizeIterator + DoubleEndedIterator
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.124
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.125
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.125
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.126
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.127
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.127
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.128
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.128
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.129
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.130
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.131
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.132
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.133
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.134
+!MESSAGE Unknown line format:         FromA: Default + Extend<A>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.144
+!MESSAGE Unknown line format:         FromB: Default + Extend<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.145
+!MESSAGE Unknown line format:         Self: Sized + Iterator<Item=(A, B)>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.149
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.150
+!MESSAGE Unknown line format:         where Self: Sized + Iterator<Item=&'a T>, T: Clone
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.156
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.157
+!MESSAGE Unknown line format:         S: Add<Self::Item, Output=S> + Zero,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.158
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.159
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.159
+!MESSAGE Unknown line format:         P: Mul<Self::Item, Output=P> + One,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.160
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.160
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.161
+!MESSAGE Unknown line format:         I: IntoIterator<Item = Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.162
+!MESSAGE Unknown line format:         Self::Item: Ord,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.162
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.163
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.163
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.165
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.166
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.167
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.168
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.169
+!MESSAGE Unknown line format:         Self::Item: PartialEq<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.170
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.170
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.171
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.171
+!MESSAGE Unknown line format:         Self::Item: PartialEq<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.172
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.172
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.173
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.174
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.174
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.176
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.177
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.178
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.179
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.179
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.180
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.180
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.181
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.181
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.183
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.184
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.186
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:27:44.187
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.075
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Eq + Hash
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.079
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.081
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Eq + Hash
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.083
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.085
+!MESSAGE Unknown line format:                                      hash: SafeHash,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.086
+!MESSAGE Unknown line format:                                      k: K,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.088
+!MESSAGE Unknown line format:                                      v: V,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.088
+!MESSAGE Unknown line format:                                      mut found_existing: F)
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.089
+!MESSAGE Unknown line format:                                      -> &'a mut V where
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.090
+!MESSAGE Unknown line format:         F: FnMut(&mut K, &mut V, K, V),
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.090
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.093
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.094
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.097
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.099
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.100
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.101
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.101
+!MESSAGE Unknown line format:         where K: Borrow<Q>, Q: Hash + Eq
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:34:47.102
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.558
+!MESSAGE Unknown line format:         Self: Sized, U: IntoIterator<Item=Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.560
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.560
+!MESSAGE Unknown line format:         Self: Sized, U: IntoIterator
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.561
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.562
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.563
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.563
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.564
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.565
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> Option<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.565
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.566
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.567
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.569
+!MESSAGE Unknown line format:         Self: Sized, P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.570
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.571
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&mut St, Self::Item) -> Option<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.572
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.572
+!MESSAGE Unknown line format:         where Self: Sized, U: IntoIterator, F: FnMut(Self::Item) -> U,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.573
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.573
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(&Self::Item),
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.574
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.574
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.575
+!MESSAGE Unknown line format:         B: Default + Extend<Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.575
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.576
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.576
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(B, Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.581
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.582
+!MESSAGE Unknown line format:         Self: Sized, F: FnMut(Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.584
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.585
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.585
+!MESSAGE Unknown line format:         F: FnMut(Self::Item) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.586
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.586
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.587
+!MESSAGE Unknown line format:         P: FnMut(&Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.587
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.588
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.588
+!MESSAGE Unknown line format:         P: FnMut(Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.589
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.589
+!MESSAGE Unknown line format:         P: FnMut(Self::Item) -> bool,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.590
+!MESSAGE Unknown line format:         Self: Sized + ExactSizeIterator + DoubleEndedIterator
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.590
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.591
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.591
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.592
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.592
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.593
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.593
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.594
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.594
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.595
+!MESSAGE Unknown line format:         F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.597
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.597
+!MESSAGE Unknown line format:         where Self: Sized, F: FnMut(&Self::Item) -> B,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.598
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.599
+!MESSAGE Unknown line format:         FromA: Default + Extend<A>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.599
+!MESSAGE Unknown line format:         FromB: Default + Extend<B>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.600
+!MESSAGE Unknown line format:         Self: Sized + Iterator<Item=(A, B)>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.600
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.601
+!MESSAGE Unknown line format:         where Self: Sized + Iterator<Item=&'a T>, T: Clone
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.601
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.602
+!MESSAGE Unknown line format:         S: Add<Self::Item, Output=S> + Zero,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.602
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.603
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.604
+!MESSAGE Unknown line format:         P: Mul<Self::Item, Output=P> + One,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.605
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.605
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.606
+!MESSAGE Unknown line format:         I: IntoIterator<Item = Self::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.606
+!MESSAGE Unknown line format:         Self::Item: Ord,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.607
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.608
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.609
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.610
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.611
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.611
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.612
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.612
+!MESSAGE Unknown line format:         Self::Item: PartialEq<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.613
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.614
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.615
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.615
+!MESSAGE Unknown line format:         Self::Item: PartialEq<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.616
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.617
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.617
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.618
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.620
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.620
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.625
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.626
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.627
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.627
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.628
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.629
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.629
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.630
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.630
+!MESSAGE Unknown line format:         I: IntoIterator,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.631
+!MESSAGE Unknown line format:         Self::Item: PartialOrd<I::Item>,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.631
+!MESSAGE Unknown line format:         Self: Sized,
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 19:35:00.632
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:43:39.576
+!MESSAGE Unknown error line syntax: src/main.rs:6:5: 6:34 help: run `rustc --explain E0432` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 19:43:39.827
+!MESSAGE Unknown error line syntax: src/main.rs:6:5: 6:34 help: run `rustc --explain E0432` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:04:23.616
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:04:23.619
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:04:23.620
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:18:11.542
+!MESSAGE Unknown error line syntax: src/main.rs:80:8: 80:14 help: run `rustc --explain E0061` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:29:54.973
+!MESSAGE Unknown line format:         where F: FnMut(&T) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:29:54.974
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:29:54.975
+!MESSAGE Unknown line format:         where R: RangeArgument<usize>
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:29:54.976
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:31:29.615
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:31:29.617
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:31:29.620
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:31:49.540
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:12 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:31:49.861
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:12 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:32:24.787
+!MESSAGE Unknown error line syntax: src/main.rs:26:9: 26:16 help: to make the local variable mutable, use `mut` as shown:
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:32:24.789
+!MESSAGE Unknown error line syntax: src/main.rs:   		  let mut ret_vec = Vec::new();
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:32:25.120
+!MESSAGE Unknown error line syntax: src/main.rs:26:9: 26:16 help: to make the local variable mutable, use `mut` as shown:
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:32:25.122
+!MESSAGE Unknown error line syntax: src/main.rs:   		  let mut ret_vec = Vec::new();
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:33:42.648
+!MESSAGE Unknown line format:         where F: FnMut(&T) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:33:42.649
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:33:42.652
+!MESSAGE Unknown line format:         where R: RangeArgument<usize>
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:33:42.653
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:34:46.116
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:19 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:35:51.083
+!MESSAGE Unknown line format:         where F: FnMut(&T) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:35:51.084
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:35:51.085
+!MESSAGE Unknown line format:         where R: RangeArgument<usize>
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:35:51.086
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:35:56.694
+!MESSAGE Unknown line format:         where F: FnMut(&T) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:35:56.697
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:35:56.698
+!MESSAGE Unknown line format:         where R: RangeArgument<usize>
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:35:56.699
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:37:36.402
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:19 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:37:36.737
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:19 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:37:59.782
+!MESSAGE Unknown line format:         where F: FnMut(&T) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:37:59.783
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:37:59.784
+!MESSAGE Unknown line format:         where R: RangeArgument<usize>
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:37:59.785
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:38:34.269
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:30 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:38:34.569
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:30 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:38:48.752
+!MESSAGE Unknown error line syntax: src/main.rs:35:13: 35:21 help: maybe a `()` to call it is missing? If not, try an anonymous function
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:38:49.191
+!MESSAGE Unknown error line syntax: src/main.rs:35:13: 35:21 help: maybe a `()` to call it is missing? If not, try an anonymous function
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:39:02.730
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:30 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:39:03.069
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:30 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:40:16.642
+!MESSAGE Unknown line format:         where F: FnMut(&T) -> bool
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:40:16.644
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:40:16.644
+!MESSAGE Unknown line format:         where R: RangeArgument<usize>
+
+!ENTRY com.github.rustdt.ide.core 2 0 2016-03-06 20:40:16.645
+!MESSAGE Unknown line format:    
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:40:22.732
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:40:22.734
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:40:22.734
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:40:22.877
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:40:22.879
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:40:22.880
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:40:43.520
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:44 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:40:43.872
+!MESSAGE Unknown error line syntax: src/main.rs:35:5: 35:44 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:42:43.054
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:42:43.055
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:42:43.056
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:42:43.192
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:42:43.193
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:42:43.195
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:57:19.877
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:57:19.879
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:57:19.880
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:57:20.059
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:57:20.063
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:57:20.065
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:19.933
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:19.934
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:19.935
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:20.047
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:20.049
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:20.050
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:36.603
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:36.605
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:36.605
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:36.728
+!MESSAGE Unknown error line syntax: Could not compile `othello`.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:36.729
+!MESSAGE Unknown error line syntax: 
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 20:58:36.730
+!MESSAGE Unknown error line syntax: To learn more, run the command again with --verbose.
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 21:00:14.084
+!MESSAGE Unknown error line syntax: src/main.rs:46:5: 46:15 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 21:00:14.456
+!MESSAGE Unknown error line syntax: src/main.rs:46:5: 46:15 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 21:02:41.176
+!MESSAGE Unknown error line syntax: src/main.rs:46:5: 46:15 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 21:02:41.546
+!MESSAGE Unknown error line syntax: src/main.rs:46:5: 46:15 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 21:03:49.813
+!MESSAGE Unknown error line syntax: src/main.rs:46:5: 46:15 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 21:03:50.170
+!MESSAGE Unknown error line syntax: src/main.rs:46:5: 46:15 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 21:05:27.482
+!MESSAGE Unknown error line syntax: src/main.rs:47:5: 47:15 help: run `rustc --explain E0308` to see a detailed explanation
+
+!ENTRY com.github.rustdt.ide.core 4 0 2016-03-06 21:05:27.799
+!MESSAGE Unknown error line syntax: src/main.rs:47:5: 47:15 help: run `rustc --explain E0308` to see a detailed explanation

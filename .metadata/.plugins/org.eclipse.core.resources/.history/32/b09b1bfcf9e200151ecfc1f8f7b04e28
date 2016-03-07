@@ -1,0 +1,9 @@
+//use std::*;
+
+fn main() {
+	let x : i32 = 5;
+	let y :f64 = 3.3;
+    println!("Hello, world!");
+    println!("next");
+        
+}

@@ -1,0 +1,40 @@
+use std::fmt;
+
+#[derive(Clone, Debug)]
+enum BoardSquareState {
+	EMPTY,
+	BLACK,
+	WHITE
+}
+
+
+type ROW = Vec<BoardSquareState>;
+
+#[derive(Clone)]
+struct OthelloBoard{
+	rows: Vec<ROW>
+}
+impl fmt::Debug for OthelloBoard {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+    	f.
+        write!(f, "{:?}\n", self.rows[0])
+    	
+    }
+}
+
+fn main() {
+	
+	let n = 4;
+	let size :usize = 2 * n;
+	
+	let emptyRow = vec![BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY];
+	let mut board = OthelloBoard{ rows: Vec::new() };
+	board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    println!("board = {:?}",board);
+    board.rows[0][0]=BoardSquareState::WHITE;
+    println!("board = {:?}",board);
+}

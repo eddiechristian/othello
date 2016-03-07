@@ -1,0 +1,18 @@
+//use std::*;
+
+enum BoardSquareState {
+	BLACK,
+	WHITE,
+	EMPTY
+}
+
+
+fn main() {
+	
+	let x : i32 = 5;
+	let y :i32 = 3;
+	let z = x+y;
+    println!("Hello, world!");
+    println!("z = {:?}",z);
+        
+}

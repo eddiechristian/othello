@@ -1,0 +1,82 @@
+use std::fmt;
+use std::collections::HashMap;
+
+#[derive(Clone, Debug)]
+enum BoardSquareState {
+	EMPTY,
+	BLACK,
+	WHITE
+}
+
+
+
+
+#[derive(Clone)]
+struct OthelloBoard{
+	board: HashMap<(i32,i32),BoardSquareState>
+}
+//&& y < (((size-2)/3)-1)
+fn test(size: i32){
+	 let topLeft = ( ((size-2)/3 + 1) ,((size-2)/3 +1));
+	 println!("topLeft ={:?}\n" , topLeft);
+	 for x in 0..size-1 {	
+        	for y in 0..size-1 {
+        		let tup = (x,y);
+        		match tup{
+        			(0,3)   => println!("x: {:?} y: {:?}\n",x,y),
+        			(topLeft.) => println!("topleft\n"),
+        			_  => println!("special: x: {:?} y: {:?}\n",x,y)
+        		}
+        	}
+        }
+}
+
+impl OthelloBoard {
+    pub fn new(size: i32) -> OthelloBoard {
+    	OthelloBoard{board: HashMap::new()}
+       
+    }
+}
+
+impl fmt::Debug for OthelloBoard {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+    	
+        write!(f, "to do")
+    	
+    }
+}
+
+fn main() {
+	
+	let n = 4;
+	let size :usize = 2 * n;
+	test(8);
+	
+	/*
+	let emptyRow = vec![BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY];
+	let blackWhiteRow = vec![BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::BLACK,
+					BoardSquareState::WHITE,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY];
+					
+	let WhiteBlackRow = vec![BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::WHITE,
+					BoardSquareState::BLACK,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY];
+	let mut board = OthelloBoard{ rows: Vec::new() };
+	board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    board.rows.push(blackWhiteRow);
+    board.rows.push(WhiteBlackRow);
+    board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    println!("board = {:?}",board);
+   // board.rows[0][0]=BoardSquareState::WHITE;
+    println!("board = {:?}",board);
+    */
+}

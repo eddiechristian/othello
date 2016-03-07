@@ -1,0 +1,108 @@
+#![allow(unused_variables)]
+
+#![allow(dead_code)]
+
+use std::fmt;
+use std::collections::HashMap;
+
+
+
+#[derive(Clone, Debug)]
+enum BoardSquareState {
+	EMPTY,
+	BLACK,
+	WHITE
+}
+
+
+
+#[derive(Clone)]
+struct OthelloBoard{
+	board: HashMap<(i32,i32),BoardSquareState>
+}
+//&& y < (((size-2)/3)-1)
+fn test(size: i32){
+	 let topLeftCol = (size-2)/3 + 1;
+	 for x in 0..size {	
+        	for y in 0..size {
+        		let tup = (x,y);
+        		match tup{
+        			(k,l) if ((k == topLeftCol) && (l==topLeftCol)) ||
+        					 ((k == topLeftCol+1) && (l==topLeftCol+1))  => println!("top left or bottom right\n"),
+        			(k,l) if ((k == topLeftCol+1) && (l==topLeftCol)) ||
+        					 ((k == topLeftCol) && (l==topLeftCol+1))  => println!("top right or bottom left\n"),
+        			(k,l) => println!("others {:?} {:?}\n",k,l)
+        		}
+        	}
+        }
+}
+
+impl OthelloBoard {
+    pub fn new(size: i32) -> OthelloBoard {
+    	
+       let mut map = HashMap::new();
+        let topLeftCol = (size-2)/3 + 1;
+	 for x in 0..size {	
+        	for y in 0..size {
+        		let tup = (x,y);
+        		match tup{
+        			(k,l) if ((k == topLeftCol) && (l==topLeftCol)) ||
+        					 ((k == topLeftCol+1) && (l==topLeftCol+1))  => {
+        					 	let gg = (x,y);
+        					 	map.insert(gg,BoardSquareState::WHITE);
+        					 },
+        			(k,l) if ((k == topLeftCol+1) && (l==topLeftCol)) ||
+        					 ((k == topLeftCol) && (l==topLeftCol+1))  => {
+        					 	let tt = (x,y);
+        					 	//map.insert((k,l),BoardSquareState::BLACK),
+        					 }
+        			(k,l) => println!("others {:?} {:?}\n",k,l)
+        		}
+        	}
+        }
+       OthelloBoard{board: map}
+    }
+}
+
+impl fmt::Debug for OthelloBoard {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+    	
+        write!(f, "to do")
+    	
+    }
+}
+
+fn main() {
+	
+	let n = 4;
+	let size :usize = 2 * n;
+	test(8);
+	
+	/*
+	let emptyRow = vec![BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY];
+	let blackWhiteRow = vec![BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::BLACK,
+					BoardSquareState::WHITE,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY];
+					
+	let WhiteBlackRow = vec![BoardSquareState::EMPTY,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::WHITE,
+					BoardSquareState::BLACK,BoardSquareState::EMPTY,
+					BoardSquareState::EMPTY,BoardSquareState::EMPTY];
+	let mut board = OthelloBoard{ rows: Vec::new() };
+	board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    board.rows.push(blackWhiteRow);
+    board.rows.push(WhiteBlackRow);
+    board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    board.rows.push(emptyRow.clone());
+    println!("board = {:?}",board);
+   // board.rows[0][0]=BoardSquareState::WHITE;
+    println!("board = {:?}",board);
+    */
+}

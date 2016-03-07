@@ -1,0 +1,25 @@
+//use std::*;
+
+enum BoardSquareState {
+	EMPTY,
+	BLACK,
+	WHITE
+}
+
+type ROW = Vec<BoardSquareState>;
+
+struct OthelloBoard{
+	rows: Vec<ROW>
+}
+
+fn main() {
+	
+	let size :usize = 1 << 3;
+	
+	
+	let mut board = OthelloBoard{ rows: vec![] };
+	
+    println!("Hello, world!");
+    println!("cols = {:?}",size);
+        
+}

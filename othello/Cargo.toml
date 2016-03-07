@@ -6,4 +6,4 @@ authors = [ "eddiechristian1@gmail.com" ]
 
 [[bin]]
 
-name = "hello_world"
+name = "othello"
