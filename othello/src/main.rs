@@ -28,7 +28,7 @@ impl OthelloBoard {
 	    .filter(|&key| key.0 == row)
 	    .collect::<Vec<&(i32, i32)>>();
 	   
-	   let x = BoardSquareState::EMPTY;
+	   let x = Box(BoardSquareState::EMPTY);
         
         sortedrow.sort_by(|&a, &b| a.1.cmp(&b.1));
 
