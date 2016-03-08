@@ -73,9 +73,16 @@ impl fmt::Debug for OthelloBoard {
 	    .collect::<Vec<&(i32, i32)>>();
 	   
         sortedrow0.sort_by(|&a, &b| a.1.cmp(&b.1));
-
-        let sorted_values = sortedrow0.iter().map(|key| self.board.get(key));
-        println!("sss {:?}\n",sorted_values);
+ 		let x = &BoardSquareState::EMPTY;
+        let sorted_values = sortedrow0.iter().map(|key| {
+        		match self.board.get(key){
+        			Some(m) => m,
+        			_ => x
+        		}
+        	}
+        	)
+        .collect::<Vec<_>>();
+        
          let mut sortedrow1: Vec<&(i32, i32)> = self.board.keys()
 	    .filter(|&key| key.0 == 1)
 	    .collect::<Vec<&(i32, i32)>>();
