@@ -22,18 +22,28 @@ struct OthelloBoard {
 }
 
 impl OthelloBoard {
-    fn test(&self, _row: i32) -> Vec<&(i32, i32)> {
+    fn test(&self, row: i32) -> Vec<&BoardSquareState> {
 
-	    let mut sortedrow0: Vec<&(i32, i32)> = self.board.keys()
-	    .filter(|&key| key.0 == 0)
+	    let mut sortedrow: Vec<&(i32, i32)> = self.board.keys()
+	    .filter(|&key| key.0 == row)
 	    .collect::<Vec<&(i32, i32)>>();
 	   
+	   let x = BoardSquareState::EMPTY;
         
-        sortedrow0.sort_by(|&a, &b| a.1.cmp(&b.1));
+        sortedrow.sort_by(|&a, &b| a.1.cmp(&b.1));
 
+        let sorted_values = sortedrow.iter().map(|key| {
+        		match self.board.get(key){
+        			Some(m) => m,
+        			_ => &x
+        		}
+        	}
+        	)
+        .collect::<Vec<_>>();
 
-        sortedrow0
+        sorted_values
     }
+
     pub fn new(size: i32) -> OthelloBoard {
 
         let mut map = HashMap::new();
@@ -68,13 +78,15 @@ impl fmt::Debug for OthelloBoard {
 		//f.write_str("eddie");
 		//f.write_str("christian");
 		 
+		 //row0
 		 let mut sortedrow0: Vec<&(i32, i32)> = self.board.keys()
 	    .filter(|&key| key.0 == 0)
 	    .collect::<Vec<&(i32, i32)>>();
 	   
         sortedrow0.sort_by(|&a, &b| a.1.cmp(&b.1));
  		let x = &BoardSquareState::EMPTY;
-        let sorted_values = sortedrow0.iter().map(|key| {
+
+        let sorted_values0 = sortedrow0.iter().map(|key| {
         		match self.board.get(key){
         			Some(m) => m,
         			_ => x
@@ -83,13 +95,37 @@ impl fmt::Debug for OthelloBoard {
         	)
         .collect::<Vec<_>>();
         
+        //row1
          let mut sortedrow1: Vec<&(i32, i32)> = self.board.keys()
 	    .filter(|&key| key.0 == 1)
 	    .collect::<Vec<&(i32, i32)>>();
 	   
         sortedrow1.sort_by(|&a, &b| a.1.cmp(&b.1));
+       let sorted_values1 = sortedrow1.iter().map(|key| {
+        		match self.board.get(key){
+        			Some(m) => m,
+        			_ => x
+        		}
+        	}
+        	)
+        .collect::<Vec<_>>();
 
-		write!(f, "{:?}\n{:?}",sorted_values,sortedrow1)
+  		//row2
+         let mut sortedrow2: Vec<&(i32, i32)> = self.board.keys()
+	    .filter(|&key| key.0 == 2)
+	    .collect::<Vec<&(i32, i32)>>();
+	   
+        sortedrow2.sort_by(|&a, &b| a.1.cmp(&b.1));
+       let sorted_values2 = sortedrow2.iter().map(|key| {
+        		match self.board.get(key){
+        			Some(m) => m,
+        			_ => x
+        		}
+        	}
+        	)
+        .collect::<Vec<_>>();
+
+		write!(f, "{:?}\n{:?}\n{:?}",sorted_values0,sorted_values1,sorted_values2)
 	}
 }
 
