@@ -9,33 +9,36 @@ use std::collections::HashMap;
 
 #[derive(Clone, Debug)]
 enum BoardSquareState {
-    EMPTY,
-    BLACK,
-    WHITE,
+    None,
+    EMPTY(i32,i32),
+    BLACK(i32,i32),
+    WHITE(i32,i32),
 }
 
 
 
 #[derive(Clone)]
 struct OthelloBoard {
+    num_rows: u8,
     board: HashMap<(i32, i32), BoardSquareState>,
 }
 
+static NULL_SQUARE : BoardSquareState = BoardSquareState::None;
+
 impl OthelloBoard {
-    fn test(&self, row: i32) -> Vec<&BoardSquareState> {
+     fn get_row_vec(&self, row: i32) -> Vec<&BoardSquareState> {
 
 	    let mut sortedrow: Vec<&(i32, i32)> = self.board.keys()
 	    .filter(|&key| key.0 == row)
 	    .collect::<Vec<&(i32, i32)>>();
-	   
-	   let x = Box(BoardSquareState::EMPTY);
-        
+
+
         sortedrow.sort_by(|&a, &b| a.1.cmp(&b.1));
 
         let sorted_values = sortedrow.iter().map(|key| {
         		match self.board.get(key){
-        			Some(m) => m,
-        			_ => &x
+        			Some(m)  => m,
+        			_ => &NULL_SQUARE
         		}
         	}
         	)
@@ -43,7 +46,20 @@ impl OthelloBoard {
 
         sorted_values
     }
-
+    pub fn pretty_print(&self){
+        for row in 0..7{
+          let sorted_values = self.get_row_vec(row);
+          for square in sorted_values{
+                match square{
+                    &BoardSquareState::EMPTY(a,b) => print!( "|{}[1;30;42m {}[0m",27 as char ,27 as char),
+                    &BoardSquareState::BLACK(a,b) => print!( "|{}[1;30;42mB{}[0m",27 as char ,27 as char),
+                    &BoardSquareState::WHITE(a,b) => print!( "|{}[1;97;42mW{}[0m",27 as char ,27 as char),
+                    _ => println!(""),
+               }
+             }
+         print!("\n");
+        }
+    }
     pub fn new(size: i32) -> OthelloBoard {
 
         let mut map = HashMap::new();
@@ -55,77 +71,33 @@ impl OthelloBoard {
                     (k, l) if ((k == top_left_col) && (l == top_left_col)) ||
                               ((k == top_left_col + 1) && (l == top_left_col + 1)) => {
                         let gg = (x, y);
-                        map.insert(gg, BoardSquareState::WHITE);
+                        map.insert(gg, BoardSquareState::WHITE(x,y));
                     }
                     (k, l) if ((k == top_left_col + 1) && (l == top_left_col)) ||
                               ((k == top_left_col) && (l == top_left_col + 1)) => {
                         let gg = (x, y);
-                        map.insert(gg, BoardSquareState::BLACK);
+                        map.insert(gg, BoardSquareState::BLACK(x,y));
                     }
                     (k, l) => {
                         let gg = (x, y);
-                        map.insert(gg, BoardSquareState::EMPTY);
+                        map.insert(gg, BoardSquareState::EMPTY(x,y));
                     }
                 }
             }
         }
-        OthelloBoard { board: map }
+        OthelloBoard { num_rows: size as u8, board: map }
     }
 }
 impl fmt::Debug for OthelloBoard {
 	fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-		//let st = "eddie";
-		//f.write_str("eddie");
-		//f.write_str("christian");
-		 
-		 //row0
-		 let mut sortedrow0: Vec<&(i32, i32)> = self.board.keys()
-	    .filter(|&key| key.0 == 0)
-	    .collect::<Vec<&(i32, i32)>>();
-	   
-        sortedrow0.sort_by(|&a, &b| a.1.cmp(&b.1));
- 		let x = &BoardSquareState::EMPTY;
 
-        let sorted_values0 = sortedrow0.iter().map(|key| {
-        		match self.board.get(key){
-        			Some(m) => m,
-        			_ => x
-        		}
-        	}
-        	)
-        .collect::<Vec<_>>();
-        
-        //row1
-         let mut sortedrow1: Vec<&(i32, i32)> = self.board.keys()
-	    .filter(|&key| key.0 == 1)
-	    .collect::<Vec<&(i32, i32)>>();
-	   
-        sortedrow1.sort_by(|&a, &b| a.1.cmp(&b.1));
-       let sorted_values1 = sortedrow1.iter().map(|key| {
-        		match self.board.get(key){
-        			Some(m) => m,
-        			_ => x
-        		}
-        	}
-        	)
-        .collect::<Vec<_>>();
+    for row in 0 .. self.num_rows-1{
+        let sorted_row = self.get_row_vec(row as i32);
+        write!(f, "{:?}\n",sorted_row);
+    }
+        let sorted_row= self.get_row_vec((self.num_rows - 1) as i32);
+        write!(f, "{:?}\n",sorted_row)
 
-  		//row2
-         let mut sortedrow2: Vec<&(i32, i32)> = self.board.keys()
-	    .filter(|&key| key.0 == 2)
-	    .collect::<Vec<&(i32, i32)>>();
-	   
-        sortedrow2.sort_by(|&a, &b| a.1.cmp(&b.1));
-       let sorted_values2 = sortedrow2.iter().map(|key| {
-        		match self.board.get(key){
-        			Some(m) => m,
-        			_ => x
-        		}
-        	}
-        	)
-        .collect::<Vec<_>>();
-
-		write!(f, "{:?}\n{:?}\n{:?}",sorted_values0,sorted_values1,sorted_values2)
 	}
 }
 
@@ -137,6 +109,7 @@ fn main() {
     let size: i32 = 2 * n;
     let board = OthelloBoard::new(size);
     println!("board=\n{:?}", board);
-    let row1 = board.test(1);
-    //println!("row1= {:?}", row1 as String);
+
+    board.pretty_print();
+
 }
