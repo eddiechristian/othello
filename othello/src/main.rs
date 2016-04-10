@@ -4,6 +4,7 @@
 
 use std::fmt;
 use std::collections::HashMap;
+use std::collections::HashSet;
 
 
 
@@ -21,6 +22,7 @@ enum BoardSquareState {
 struct OthelloBoard {
     num_rows: u8,
     board: HashMap<(i32, i32), BoardSquareState>,
+    empty_spaces: HashSet<(i32,i32)> //that have adjacent pieces, add after each turn add to this set.
 }
 
 static NULL_SQUARE : BoardSquareState = BoardSquareState::None;
@@ -63,6 +65,7 @@ impl OthelloBoard {
     pub fn new(size: i32) -> OthelloBoard {
 
         let mut map = HashMap::new();
+        let mut set = HashSet::new();
         let top_left_col = (size - 2) / 3 + 1;
         for x in 0..size {
             for y in 0..size {
@@ -81,22 +84,30 @@ impl OthelloBoard {
                     (k, l) => {
                         let gg = (x, y);
                         map.insert(gg, BoardSquareState::EMPTY(x,y));
+                        if (k ==top_left_col) && (l >=  top_left_col-1 && l <= top_left_col+ 2){
+                            set.insert(gg);
+                        }else if (k ==top_left_col+1) && (l >=  top_left_col-1 && l <= top_left_col+ 2){
+                            set.insert(gg);
+                        }else if (k ==top_left_col-1) && (l >=  top_left_col-1 && l <= top_left_col+ 2){
+                            set.insert(gg);
+                        }else if (k ==top_left_col+2) && (l >=  top_left_col-1 && l <= top_left_col+ 2){
+                            set.insert(gg);
+                        }
                     }
                 }
             }
         }
-        OthelloBoard { num_rows: size as u8, board: map }
+        OthelloBoard { num_rows: size as u8, board: map ,empty_spaces: set}
     }
 }
 impl fmt::Debug for OthelloBoard {
 	fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
 
-    for row in 0 .. self.num_rows-1{
+    for row in 0 .. self.num_rows{
         let sorted_row = self.get_row_vec(row as i32);
         write!(f, "{:?}\n",sorted_row);
     }
-        let sorted_row= self.get_row_vec((self.num_rows - 1) as i32);
-        write!(f, "{:?}\n",sorted_row)
+        write!(f, "\nempty spaces:{:?}\n",self.empty_spaces)
 
 	}
 }
